@@ -1,4 +1,5 @@
 # Spring-boot Microservice Architecture Example
+[![Build Status](https://travis-ci.org/tangr1/springboot-mca.svg?branch=master)]
 
 ## Architecture
 
