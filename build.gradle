@@ -10,7 +10,7 @@ buildscript {
 }
 
 allprojects {
-    repositories { 
+    repositories {
         mavenLocal()
         mavenCentral()
         maven { url 'https://repo.spring.io/libs-release' }
@@ -19,5 +19,5 @@ allprojects {
 
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '2.4'
+	gradleVersion = '2.8'
 }
