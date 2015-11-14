@@ -1,0 +1,7 @@
+include 'oauth'
+include 'gateway'
+include 'ui'
+include 'resource'
+include 'admin'
+include 'codegen'
+include 'api'
