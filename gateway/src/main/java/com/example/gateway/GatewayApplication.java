@@ -63,14 +63,14 @@ public class GatewayApplication {
 
 		@Autowired
 		public void globalUserDetails(AuthenticationManagerBuilder auth) throws Exception {
-			// @formatter:off	
+			// @formatter:off
 			auth.inMemoryAuthentication()
 				.withUser("user").password("password").roles("USER")
 			.and()
 				.withUser("admin").password("admin").roles("USER", "ADMIN", "READER", "WRITER")
 			.and()
 				.withUser("audit").password("audit").roles("USER", "ADMIN", "READER");
-// @formatter:on
+            // @formatter:on
 		}
 
 		@Override
